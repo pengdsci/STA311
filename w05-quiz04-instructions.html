@@ -1,0 +1,103 @@
+ <html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Course website for MAT 121">
+  <meta name="author" content="Cheng Peng">
+  <title>STA311: Instructor's Message</title>
+
+  <!-- bootstrap  -->
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <!--link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"-->
+</head>
+
+<style>
+      body {
+        background-image: url('back_formula.jpg');
+      }
+</style>
+<body>
+
+<div id="header">
+<BR><BR><BR>
+<!-- outer table -->
+<table align = center width="700" border="2" cellpadding="0" cellspacing="0"  bordercolor=purple>
+<tr><td>
+<BR>
+<center><h2><font color = purple><b>Instructions of This Week's Quiz </b></font></h4> </center>
+<BR>
+
+<!-- level one table -->
+  <div class="container sec">
+  <table align = center width="650" border="0" cellpadding="0" cellspacing="0"  bordercolor=purple>
+  <tbody>
+    <tr>
+    <td>
+
+     <center><font color = "red">
+     Available:12:00 PM,  02/25/2021<br>
+     Due:11:30 PM,  02/28/2021
+    </font>
+    </center>
+
+<BR>
+This quiz is based on a SAS dataset Sashelp.cars available in SAS permanent library SASHELP. If you can access SAS built-in library Sashelp, 
+you can simply read that data directly from the library. For example,    
+<BR><BR>
+       <center><font color = "blue"> 
+                         <b>PROC MEANS DATA </b> = Sashelp.cars;
+       </font></center>
+<BR>
+
+Otherwise, please download the SAS data file from the course web page and save it to a folder with an appropriate file name.  
+The direct link to this datafile: <BR>
+<BR>
+<center>
+<a href="https://stat311.s3.amazonaws.com/w05_quiz4_dataset_cars.sas7bdat">https://stat311.s3.amazonaws.com/w05_quiz4_dataset_cars.sas7bdat</a>
+</center>
+<BR>
+For example, I download the data file and save it in my folder C:\STA311 and rename the SAS data file as cars. Assuming that Citix SAS can 
+access the folder C:\STA311. To use this data file in DATA/ PROC steps, I defined a permanent SAS library pointing to folder C:\STA311: <br>
+<BR>
+<center><font color = "blue">
+                                                      <b>LIBNAME</b> my311 &rdquo;C:\STA311&rdquo;; <br>
+                                                      <b>PROC MEANS DATA</b> = my311.cars;
+</font> </center>
+<BR>                       
+More than half of the multiple-choice questions in this quiz require you to write some SAS procedure steps and generate output 
+from which you can find the correct answer. The primary procedures you may consider are PROC MEANS, PROC FREQ, and PROC UNIVARIATE.  
+Please read the block comments in my example SAS code for the list of available descriptive statistics you can request from each of 
+the three procedures and their corresponding definitions. 
+<BR><BR>
+
+Some of the questions will ask you to find some of the descriptive statistics such as mean (MEAN), standard deviation (STD), 
+lower quartile (Q1), upper quartile (Q3), median (MEDIAN), minimum (MIN), and maximum (MAX) data values, etc. Some of the keywords 
+and statements you need to know are TABLE, VAR, BY, and CLASS. You are expected to know which statistics are available in which procedures.
+<BR><BR>
+
+Throughout this quiz, I assume that the SAS data set cars is save in C:\STA311. The Citrix SAS can access this folder.
+<BR><BR>
+
+Please let me know if you have any further questions.
+<BR><BR><BR>
+
+Thank you!
+<BR>
+Cheng
+ 
+<!-- NNNNNNNNNNNNNNNNNNNNNNNN    End of Message   NNNNNNNNNNNNNNNNNNNNN-->  
+</td></tr>
+</tbody>
+</table>
+</div>
+<BR><BR><BR>
+
+<!-- outer table -->
+</td> </tr> <tbody></table>
+<BR><BR><BR>
+</body>
+</html>
+
+
