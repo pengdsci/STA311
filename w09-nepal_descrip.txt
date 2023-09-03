@@ -1,0 +1,109 @@
+
+See below for details about this data set
+
+West KP, Jr., LeClerq SC, Shrestha SR, Wu LS, Pradhan EK, Khatry SK, Katz J,
+Adhikari R, Sommer A.  Effects of vitamin A on growth of vitamin A deficient
+children: field studies in Nepal.
+J Nutr 1997;10:1957-1965.
+
+
+
+ 
+
+Nepal Data 
+
+Description:
+
+This data contains anthropologic measurements on Nepalease children.  The 
+study design called for collecting measurements on 2258 kids at 5 time points, 
+spaced approximately 4 months apart (11290 total observations).  However, some
+ of the visits contain missing data.  There are 9552 complete records on 2215 
+kids. 
+
+To make exploration of these data more feasible we have extracted only the
+first 1000 records.
+
+These data represent a subset of a larger study on the impact
+of vitamin supplementation on growth.  These children represent the control 
+arm of the trial.  
+
+Scientific aims of the study include:
+
+	 
+(1) characterize growth patterns of Nepalease children
+	 
+(2) characterize dependence of growth on covariates specific to the child as age and gender
+	 
+(3) characterize relationship between growth and maternal covariates
+	 
+(4) relationship between death and prior growth pattern
+
+
+
+Structure: 
+
+The data is in the file  "nepal.dat"  with white space separating the fields.
+
+
+
+The following describes the variables:
+
+
+
+id:
+  code for the child's ID.
+
+
+age:
+  Age of child in months
+
+
+sex:
+  Gender is coded: 1 = male; 2 =  female.
+
+
+wt:
+  Child's weight measured in kilograms.
+
+
+ht:
+  Child's height measured in centimeters.
+
+
+arm:
+  Child's mid upper arm circumference measured in centimeters.
+
+
+bf:
+  Indicates current level of breastfeeding:  0 = none; 1 = <10 times/day;
+  2 = 10 or more times/day.
+
+
+day:
+
+month:
+
+year:
+  These 3 items denote the date of the child's visit.  The date is in
+  Nepali calendar years - a lunar calendar.
+
+
+mage:
+  Mother's age in years.
+
+
+lit:
+  Indicator of mother's literacy:  0 = no; 1 = yes.
+
+
+died:
+  The number of kids the mother has had that died.
+
+
+alive:
+  The number of kids the mother has ever had born alive (parity).
+
+
+
+
+
